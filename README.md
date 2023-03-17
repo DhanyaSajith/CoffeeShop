@@ -13,19 +13,29 @@ mvn clean install
  # Start the application:
 mvn spring-boot:run
 The application will start running at http://localhost:8080.
+
 # API Endpoints
 The API endpoints can be accessed at http://localhost:8080/api.
+
 Drinks
 GET /drinks: Get all drinks
+
 POST /drinks: Create a new drink
+
 PUT /drinks/{id}: Update an existing drink
+
 DELETE /drinks/{id}: Delete an existing drink
 
 Toppings
+
 GET /toppings: Get all toppings
+
 POST /toppings: Create a new topping
+
 PUT /toppings/{id}: Update an existing topping
+
 DELETE /toppings/{id}: Delete an existing topping
+
 # Data Models
 The API uses the following data models:
 
