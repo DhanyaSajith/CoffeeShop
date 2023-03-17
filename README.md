@@ -1,21 +1,21 @@
 
-###  CoffeeShop Backend API
+#CoffeeShop Backend API
 This is a backend API for online Coffeeshop, where users can place drinks with toppings orders and admins can create/update/delete drinks/toppings and have access to the most used toppings. Also, there will be a discount program for the clients that order more than average.  The API is built using Java and Spring Boot.
 
 ## Requirements
 Java 11 or later
 Maven
 ## Getting Started
-# Clone the repository:
+## Clone the repository:
 git clone https://github.com/DhanyaSajith/CoffeeShop
-# Build the project:
+## Build the project:
 mvn clean install
- # Start the application:
+## Start the application:
 mvn spring-boot:run
-The application will start running at http://localhost:8080.
+The application will start running at http://localhost:8080
 
 # API Endpoints
-The API endpoints can be accessed at http://localhost:8080/api.
+The API endpoints can be accessed at http://localhost:8080/api
 
 Drinks
 GET /drinks: Get all drinks
