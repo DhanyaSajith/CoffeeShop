@@ -17,7 +17,7 @@ The application will start running at http://localhost:8080
 # API Endpoints
 The API endpoints can be accessed at http://localhost:8080/api
 
-# Drinks
+## Drinks
 GET /drinks: Get all drinks
 
 POST /drinks: Create a new drink
@@ -26,7 +26,7 @@ PUT /drinks/{id}: Update an existing drink
 
 DELETE /drinks/{id}: Delete an existing drink
 
-# Toppings
+## Toppings
 
 GET /toppings: Get all toppings
 
@@ -36,10 +36,10 @@ PUT /toppings/{id}: Update an existing topping
 
 DELETE /toppings/{id}: Delete an existing topping
 
-# Data Models
+## Data Models
 The API uses the following data models:
 
-# Drink
+## Drink
 
 id (long): The ID of the drink
 
@@ -49,7 +49,7 @@ price (double): The price of the drink
 
 toppings (list of Drink Topping): The toppings of the drink
 
-# Topping
+## Topping
 
 id (long): The ID of the topping
 
@@ -59,7 +59,7 @@ price (double): The price of the topping
 
 drinks (list of Drink Topping): The drinks that use the topping
 
-# Drink Topping
+## Drink Topping
 
 id (long): The ID of the drink topping
 
