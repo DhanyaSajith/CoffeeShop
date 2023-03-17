@@ -30,6 +30,7 @@ DELETE /toppings/{id}: Delete an existing topping
 The API uses the following data models:
 
 Drink
+
 id (long): The ID of the drink
 
 name (string): The name of the drink
@@ -37,7 +38,9 @@ name (string): The name of the drink
 price (double): The price of the drink
 
 toppings (list of Drink Topping): The toppings of the drink
+
 Topping
+
 id (long): The ID of the topping
 
 name (string): The name of the topping
@@ -45,7 +48,9 @@ name (string): The name of the topping
 price (double): The price of the topping
 
 drinks (list of Drink Topping): The drinks that use the topping
+
 Drink Topping
+
 id (long): The ID of the drink topping
 
 drink (Drink): The drink that uses the topping
