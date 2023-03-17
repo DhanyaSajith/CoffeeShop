@@ -5,7 +5,7 @@ This is a backend API for online Coffeeshop, where users can place drinks with t
 ## Requirements
 Java 11 or later
 Maven
-## Getting Started
+# Getting Started
 ## Clone the repository:
 git clone https://github.com/DhanyaSajith/CoffeeShop
 ## Build the project:
@@ -36,7 +36,7 @@ PUT /toppings/{id}: Update an existing topping
 
 DELETE /toppings/{id}: Delete an existing topping
 
-## Data Models
+# Data Models
 The API uses the following data models:
 
 ## Drink
