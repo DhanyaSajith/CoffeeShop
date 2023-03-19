@@ -33,6 +33,9 @@ public class CoffeeController {
     @Autowired
     private DrinkToppingRepository drinkToppingRepository;
 
+    @Autowired
+    private DiscountService discountService;
+
     // Endpoint to get all drinks
     @GetMapping("/drinks")
     public List<Drink> getAllDrinks(){
@@ -93,7 +96,7 @@ public class CoffeeController {
             return ResponseEntity.notFound().build();
         }
     }
-    // Enpoint to delete a topping
+    // Endpoint to delete a topping
     @DeleteMapping("/toppings/{id}")
     public ResponseEntity<Void> deleteTopping(@PathVariable Long id) {
         Optional<Topping> topping = toppingRepository.findById(id);
@@ -103,6 +106,12 @@ public class CoffeeController {
         } else {
             return ResponseEntity.notFound().build();
         }
+    }
+    // Endpoint to get the Discount Price 
+    @GetMapping("/discount/{amount}")
+    public ResponseEntity<Double> calculateDiscount(@PathVariable double amount) {
+        double discount = discountService.calculateDiscount(amount);
+        return ResponseEntity.ok(discount);
     }
 
 
