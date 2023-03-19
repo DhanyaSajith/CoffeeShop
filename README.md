@@ -36,6 +36,8 @@ PUT /toppings/{id}: Update an existing topping
 
 DELETE /toppings/{id}: Delete an existing topping
 
+GET /: Get the discount prices
+
 # Data Models
 The API uses the following data models:
 
@@ -66,3 +68,5 @@ id (long): The ID of the drink topping
 drink (Drink): The drink that uses the topping
 
 topping (Topping): The topping used by the drink
+
+Note:Due to lack of time I have written the functionality code to find the discount price.Also due to some configuration issues I was not able to complete the creation of Dockerfile.
