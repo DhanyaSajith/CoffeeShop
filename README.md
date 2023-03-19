@@ -3,8 +3,7 @@
 This is a backend API for online Coffeeshop, where users can place drinks with toppings orders and admins can create/update/delete drinks/toppings and have access to the most used toppings. Also, there will be a discount program for the clients that order more than average.  The API is built using Java and Spring Boot.
 
 ## Requirements
-Java 11 or later
-Maven
+Java 11 , Maven
 # Getting Started
 ## Clone the repository:
 git clone https://github.com/DhanyaSajith/CoffeeShop
