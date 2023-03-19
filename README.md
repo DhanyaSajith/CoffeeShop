@@ -36,7 +36,7 @@ PUT /toppings/{id}: Update an existing topping
 
 DELETE /toppings/{id}: Delete an existing topping
 
-GET /: Get the discount prices
+GET /discount/{amount}: Get the discount prices
 
 # Data Models
 The API uses the following data models:
